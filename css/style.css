@@ -1,11 +1,11 @@
 /* Fuentes */
-/* @font-face {
+@font-face {
   font-family: "Fjalla One";
   src: url(./fonts/FjallaOne-Regular.ttf) format("truetype");
   font-size: larger;
   font-style: normal;
   font-weight: normal;
-} */
+}
 
 @font-face {
   font-family: "Nevis";
@@ -37,7 +37,6 @@ body {
 }
 
 /* Cabecera */
-
 #header {
   font-family: "Nevis";
   min-width: 1024px;
@@ -68,4 +67,11 @@ body {
   color: #70b231;
   font-size: 40px;
   text-align: center;
+}
+
+/* Body */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #70b231, #83c04a, #70b231);
 }
